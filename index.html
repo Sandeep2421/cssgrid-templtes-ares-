@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .md {
+        display: grid;
+        grid-template-areas:
+          "area1 area2 area3"
+          "area1 area5 area6"
+          "area4 area5 area6"
+          "area4 area5 area7";
+        padding: 20px;
+        gap: 10px;
+        background-color: rgb(193, 193, 23);
+       
+
+        .item{
+          border: 2px solid;
+          background-color: bisque;
+          justify-content: center;
+          align-content: center;
+        }
+      }
+      .item1 {
+        grid-area: area1;
+        
+        
+      }
+      .item2 {
+        grid-area: area2;
+      }
+      .item3 {
+        grid-area: area3;
+      }
+      .item4 {
+        grid-area: area4;
+      }
+      .item5 {
+        grid-area: area5;
+      }
+      .item6 {
+        grid-area: area6;
+      }
+      .item7 {
+        grid-area: area7;
+      
+      }
+      img {
+       
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md">
+      <div class="item item1"><img src="../rohit1.jpeg" /></div>
+      <div class="item item2"><img src="../rohit2.jpeg" /></div>
+      <div class="item item3"><img src="../rohit3.jpeg" /></div>
+      <div class="item item4"><img src="../rohit4.jpeg" /></div>
+      <div class="item item5"><img src="../rohit5.jpeg" /></div>
+      <div class="item item6"><img src="../devarikonda.jpg" /></div>
+      <div class="item item7"><img src="../rohit sharma.webp" /></div>
+    
+    </div>
+  </body>
+</html>
